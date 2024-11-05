@@ -1,2 +1,8 @@
 20241103NC 00:48
 Updated GDD Documentation. Section 1 is almost completed.
+
+20241104NC 18:19
+Updated GDD Documentation.
+Adds General Movement Mechanics.
+Adds Opening Door Mechanics.
+Adds Game Progression for level and Bosses.
