@@ -6,3 +6,9 @@ Updated GDD Documentation.
 Adds General Movement Mechanics.
 Adds Opening Door Mechanics.
 Adds Game Progression for level and Bosses.
+
+20241105NC 17:39
+Added the detective character.
+Added Game Progression, glimpses.
+Added weapons and statistics of the weapons.
+Added a few collectibles to the Game World Section.
