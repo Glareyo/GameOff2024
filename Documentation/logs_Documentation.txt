@@ -12,3 +12,6 @@ Added the detective character.
 Added Game Progression, glimpses.
 Added weapons and statistics of the weapons.
 Added a few collectibles to the Game World Section.
+
+20241106NC 12:36
+Added Control System - Keyboard and Mouse

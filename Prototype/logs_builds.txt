@@ -1,0 +1,4 @@
+20241106NC 12:41
+16:40 Created Player.
+16:40 Created InputSystem and added to player.
+16:40 Player can now move left and right.
