@@ -1,0 +1,7 @@
+﻿  LogWriter.cpp
+C:\Users\nemo1\OneDrive\Desktop\GameOff2024\LogWriter\Clock.h(2,32): warning C4081: expected 'newline'; found '.'
+  (compiling source file 'LogWriter.cpp')
+  
+C:\Users\nemo1\OneDrive\Desktop\GameOff2024\LogWriter\LogWriter.cpp(14,32): warning C4081: expected 'newline'; found '.'
+C:\Users\nemo1\OneDrive\Desktop\GameOff2024\LogWriter\LogWriter.cpp(22,8): warning C4101: 'index': unreferenced local variable
+  LogWriter.vcxproj -> C:\Users\nemo1\OneDrive\Desktop\GameOff2024\LogWriter\x64\Debug\LogWriter.exe

@@ -1,10 +1,17 @@
-20241106NC 12:41
-16:40 Created Player.
-16:40 Created InputSystem and added to player.
-16:40 Player can now move left and right.
+Last Updated: 
+20241108
 
-20241107NC
-3:04 Added code where player can now jump.
-3:04 Linked Animations of Running, Jumping, and Idling together with bools.
-3:04 Player object can now have animations.
-3:04 Bug detected - Falling animation not being animated when player is falling.
+20241106
+16:40|NC Created Player.
+16:40|NC Created InputSystem and added to player.
+16:40|NC Player can now move left and right.
+
+20241107
+03:04|NC Added code where player can now jump.
+03:04|NC Linked Animations of Running, Jumping, and Idling together with bools.
+03:04|NC Player object can now have animations.
+03:04|NC Bug detected - Falling animation not being animated when player is falling.
+
+20241108
+00:56|NC - Log linked to new implementation of LogWriter.
+01:11|NC - Builds Log Linked

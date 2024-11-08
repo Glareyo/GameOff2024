@@ -1,4 +1,11 @@
-20241106NC 12:37
-12:37 Created Testing Sprites folder for testing code.
-12:37 Added Hexel file for testing sprites.
-13:13 Created Tileset_TestTileset
+Last Updated: 
+20241108
+
+20241106
+12:37|NC Created Testing Sprites folder for testing code.
+12:37|NC Added Hexel file for testing sprites.
+13:13|NC Created Tileset_TestTileset
+
+20241108
+00:56|NC - Log linked to new implementation of LogWriter.
+01:11|NC - Art Log Linked

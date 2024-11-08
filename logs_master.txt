@@ -1,2 +1,46 @@
-20241103NC 00:48
-Updated GDD Documentation. Section 1 is almost completed.
+Last Updated: 
+20241108
+
+20241103
+00:48|NC Updated GDD Documentation. Section 1 is almost completed.
+
+20241104 
+18:19|NC Updated GDD Documentation.
+18:19|NC Adds General Movement Mechanics.
+18:19|NC Adds Opening Door Mechanics.
+18:19|NC Adds Game Progression for level and Bosses.
+
+20241105
+17:39|NC Added the detective character.
+17:39|NC Added Game Progression, glimpses.
+17:39|NC Added weapons and statistics of the weapons.
+17:39|NC Added a few collectibles to the Game World Section.
+
+20241106
+12:36|NC Added Control System - Keyboard and Mouse
+12:37|NC Created Testing Sprites folder for testing code.
+12:37|NC Added Hexel file for testing sprites.
+13:13|NC Created Tileset_TestTileset
+16:40|NC Created Player.
+16:40|NC Created InputSystem and added to player.
+16:40|NC Player can now move left and right.
+
+20241107
+03:04|NC Added code where player can now jump.
+03:04|NC Linked Animations of Running, Jumping, and Idling together with bools.
+03:04|NC Player object can now have animations.
+03:04|NC Bug detected - Falling animation not being animated when player is falling.
+
+20241108
+00:56|NC - Log linked to new implementation of LogWriter.
+00:56|NC - Log linked to new implementation of LogWriter.
+00:56|NC - Log linked to new implementation of LogWriter.
+00:56|NC - Log linked to new implementation of LogWriter.
+01:11|NC - Art Log Linked
+01:11|NC - Documentation Log Linked
+01:11|NC - Builds Log Linked
+01:11|NC - SFX Log Linked
+01:15|NC - test
+01:15|NC - test
+01:15|NC - test
+01:15|NC - test

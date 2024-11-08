@@ -1,17 +1,24 @@
-20241103NC 00:48
-Updated GDD Documentation. Section 1 is almost completed.
+Last Updated: 
+20241108
 
-20241104NC 18:19
-Updated GDD Documentation.
-Adds General Movement Mechanics.
-Adds Opening Door Mechanics.
-Adds Game Progression for level and Bosses.
+20241103
+00:48|NC Updated GDD Documentation. Section 1 is almost completed.
 
-20241105NC 17:39
-Added the detective character.
-Added Game Progression, glimpses.
-Added weapons and statistics of the weapons.
-Added a few collectibles to the Game World Section.
+20241104 
+18:19|NC Updated GDD Documentation.
+18:19|NC Adds General Movement Mechanics.
+18:19|NC Adds Opening Door Mechanics.
+18:19|NC Adds Game Progression for level and Bosses.
 
-20241106NC 12:36
-Added Control System - Keyboard and Mouse
+20241105
+17:39|NC Added the detective character.
+17:39|NC Added Game Progression, glimpses.
+17:39|NC Added weapons and statistics of the weapons.
+17:39|NC Added a few collectibles to the Game World Section.
+
+20241106
+12:36|NC Added Control System - Keyboard and Mouse
+
+20241108
+00:56|NC - Log linked to new implementation of LogWriter.
+01:11|NC - Documentation Log Linked
