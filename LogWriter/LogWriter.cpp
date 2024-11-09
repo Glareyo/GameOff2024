@@ -45,6 +45,7 @@ int main()
    e.GetUsername();
    while (running)
    {
+	   Clock clock;
 	   running = e.RunEngine();
    }
 }

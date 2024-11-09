@@ -1,5 +1,5 @@
 Last Updated: 
-20241108
+20241109
 
 20241103
 00:48|NC Updated GDD Documentation. Section 1 is almost completed.
@@ -40,8 +40,16 @@ Last Updated:
 01:11|NC - Documentation Log Linked
 01:11|NC - Builds Log Linked
 01:11|NC - SFX Log Linked
-01:15|NC - test
-01:15|NC - test
-01:15|NC - test
-01:15|NC - test
 13:51|NC - Created Player Temp Arms, Head, and Body
+13:51|NC - Added player arms, body, and head as seperate game objects.
+13:51|NC - PlayerBody.cs created.
+13:51|NC - Player parent now contains the playerController.cs
+20:02|NC - Player sprite now flips depending on direction.
+21:49|NC - Created Temp Player Idle Sprite
+22:17|NC - Created Idle Animation for the head of the player.
+22:17|NC - Add temp head to game for testing.
+
+20241109
+01:55|NC - Player temp sprite can now look up.
+01:56|NC - Imported Player Head Sprite looking up.
+01:56|NC - Player can now look up.

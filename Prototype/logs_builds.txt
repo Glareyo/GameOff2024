@@ -1,5 +1,5 @@
 Last Updated: 
-20241108
+20241109
 
 20241106
 16:40|NC Created Player.
@@ -15,3 +15,13 @@ Last Updated:
 20241108
 00:56|NC - Log linked to new implementation of LogWriter.
 01:11|NC - Builds Log Linked
+13:51|NC - Added player arms, body, and head as seperate game objects.
+13:51|NC - PlayerBody.cs created.
+13:51|NC - Player parent now contains the playerController.cs
+13:51|NC - Player sprite now flips depending on direction.
+20:28|NC - test 4
+22:17|NC - Add temp head to game for testing.
+
+20241109
+01:56|NC - Imported Player Head Sprite looking up.
+01:56|NC - Player can now look up.

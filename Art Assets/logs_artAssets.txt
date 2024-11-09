@@ -1,5 +1,5 @@
 Last Updated: 
-20241108
+20241109
 
 20241106
 12:37|NC Created Testing Sprites folder for testing code.
@@ -10,3 +10,9 @@ Last Updated:
 00:56|NC - Log linked to new implementation of LogWriter.
 01:11|NC - Art Log Linked
 13:51|NC - Created Player Temp Arms, Head, and Body
+20:21|NC - Log Updated
+21:49|NC - Created Temp Player Idle Sprite
+22:17|NC - Created Idle Animation for the head of the player.
+
+20241109
+01:55|NC - Player temp sprite can now look up.

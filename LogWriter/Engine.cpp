@@ -111,6 +111,10 @@ void Engine::UpdateLog(int index, string input, string userName)
 	Log targetLog;
 	queue<Log> tempLogs;
 	
+	Clock c;
+
+	clock = c;
+
 	string currentDate = clock.GetCurrentDate();
 	string currentTime = clock.GetCurrentTime();
 
