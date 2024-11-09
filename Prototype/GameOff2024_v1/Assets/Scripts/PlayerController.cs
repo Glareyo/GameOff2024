@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float JumpSpeed;
 
     [Header("Player Body Parts")]
-    [SerializeField] GameObject Arms;
+    [SerializeField] PlayerArms Arms;
     [SerializeField] PlayerBody Body;
     [SerializeField] PlayerHead Head;
 
@@ -42,6 +42,11 @@ public class PlayerController : MonoBehaviour
         {
             Body.Fall();
         }
+    }
+
+    void OnSwapWeapons()
+    {
+        Arms.SwapWeapons();
     }
 
     void OnMove(InputValue value)

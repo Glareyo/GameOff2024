@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 8304afe40ea355c42b0cef5098a76ab1
+guid: 83c191ed73dace44f8f721c76811e797
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8897524632816431581
-    second: spr_PlayerTempArmsIdle_0
+      213: 3745056747577919088
+    second: spr_PlayerTempArmsIdleFirearm_0
   - first:
-      213: -3614924267226900592
-    second: spr_PlayerTempArmsIdle_1
+      213: -6779094705142078823
+    second: spr_PlayerTempArmsIdleFirearm_1
   - first:
-      213: -7413894636872571811
-    second: spr_PlayerTempArmsIdle_2
+      213: 1414535623310107144
+    second: spr_PlayerTempArmsIdleFirearm_2
   - first:
-      213: -4321849616610037692
-    second: spr_PlayerTempArmsIdle_3
+      213: -3239990336235966017
+    second: spr_PlayerTempArmsIdleFirearm_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -119,12 +119,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_PlayerTempArmsIdle_0
+      name: spr_PlayerTempArmsIdleFirearm_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 31
-        width: 28
+        x: 1
+        y: 25
+        width: 24
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -133,19 +133,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd1bf4f238b5a7b70800000000000000
-      internalID: 8897524632816431581
+      spriteID: 076cf0f054d19f330800000000000000
+      internalID: 3745056747577919088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_PlayerTempArmsIdle_1
+      name: spr_PlayerTempArmsIdleFirearm_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 31
-        width: 28
+        x: 33
+        y: 25
+        width: 24
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -154,19 +154,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 097500a188535ddc0800000000000000
-      internalID: -3614924267226900592
+      spriteID: 99266496841dbe1a0800000000000000
+      internalID: -6779094705142078823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_PlayerTempArmsIdle_2
+      name: spr_PlayerTempArmsIdleFirearm_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 31
-        width: 28
+        x: 65
+        y: 25
+        width: 24
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -175,19 +175,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d546907bb1e8c1990800000000000000
-      internalID: -7413894636872571811
+      spriteID: 802e885a7a071a310800000000000000
+      internalID: 1414535623310107144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_PlayerTempArmsIdle_3
+      name: spr_PlayerTempArmsIdleFirearm_3
       rect:
         serializedVersion: 2
-        x: 101
-        y: 31
-        width: 27
+        x: 97
+        y: 25
+        width: 24
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -196,8 +196,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 440fc4dfba4b504c0800000000000000
-      internalID: -4321849616610037692
+      spriteID: fb1f4f494fd3903d0800000000000000
+      internalID: -3239990336235966017
       vertices: []
       indices: 
       edges: []
@@ -205,7 +205,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 04c8fbd306066354896e13beb65a864b
+    spriteID: 71ae333994208f84086bb8d5293e01c4
     internalID: 0
     vertices: []
     indices: 
@@ -213,10 +213,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_PlayerTempArmsIdle_0: 8897524632816431581
-      spr_PlayerTempArmsIdle_1: -3614924267226900592
-      spr_PlayerTempArmsIdle_2: -7413894636872571811
-      spr_PlayerTempArmsIdle_3: -4321849616610037692
+      spr_PlayerTempArmsIdleFirearm_0: 3745056747577919088
+      spr_PlayerTempArmsIdleFirearm_1: -6779094705142078823
+      spr_PlayerTempArmsIdleFirearm_2: 1414535623310107144
+      spr_PlayerTempArmsIdleFirearm_3: -3239990336235966017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

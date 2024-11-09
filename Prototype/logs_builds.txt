@@ -25,3 +25,9 @@ Last Updated:
 20241109
 01:56|NC - Imported Player Head Sprite looking up.
 01:56|NC - Player can now look up.
+07:25|NC - Added spr_bullet for testing.
+07:35|NC - Implemented Player Temp Firearm Idle
+08:48|NC - Created Arms Script for player.
+08:48|NC - Created Animator for arms of the player
+08:48|NC - Arms sprites can now swap depending on player switching weapons.
+09:15|NC - Implemented Player temp shooting forward sprite. Need to work on getting player to animate. 

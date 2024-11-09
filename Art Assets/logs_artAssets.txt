@@ -16,3 +16,7 @@ Last Updated:
 
 20241109
 01:55|NC - Player temp sprite can now look up.
+07:22|NC - Created spr_bullet. Maybe used for testing only.
+07:24|NC - spr_bullet reduced to a smaller size.
+07:35|NC - Created player temp firearm idle animation for when the player is holding a pistol. Will do better naming next time.
+09:07|NC - Created Player temp arms shooting

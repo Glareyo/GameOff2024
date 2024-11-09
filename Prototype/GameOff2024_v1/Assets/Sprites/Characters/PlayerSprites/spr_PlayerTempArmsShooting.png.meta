@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 8304afe40ea355c42b0cef5098a76ab1
+guid: 0bba3d5f29ae3914999a7660471a52d9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8897524632816431581
-    second: spr_PlayerTempArmsIdle_0
+      213: -6902622582376636931
+    second: spr_PlayerTempArmsShooting_0
   - first:
-      213: -3614924267226900592
-    second: spr_PlayerTempArmsIdle_1
-  - first:
-      213: -7413894636872571811
-    second: spr_PlayerTempArmsIdle_2
-  - first:
-      213: -4321849616610037692
-    second: spr_PlayerTempArmsIdle_3
+      213: 8515650348720175135
+    second: spr_PlayerTempArmsShooting_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -119,85 +113,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_PlayerTempArmsIdle_0
+      name: spr_PlayerTempArmsShooting_0
       rect:
         serializedVersion: 2
         x: 5
-        y: 31
+        y: 33
         width: 28
-        height: 22
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd1bf4f238b5a7b70800000000000000
-      internalID: 8897524632816431581
+      spriteID: dfdd9de3555f430a0800000000000000
+      internalID: -6902622582376636931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_PlayerTempArmsIdle_1
+      name: spr_PlayerTempArmsShooting_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 31
+        x: 36
+        y: 34
         width: 28
-        height: 22
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 097500a188535ddc0800000000000000
-      internalID: -3614924267226900592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_PlayerTempArmsIdle_2
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 31
-        width: 28
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d546907bb1e8c1990800000000000000
-      internalID: -7413894636872571811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_PlayerTempArmsIdle_3
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 31
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 440fc4dfba4b504c0800000000000000
-      internalID: -4321849616610037692
+      spriteID: f18b5e2dfdaad2670800000000000000
+      internalID: 8515650348720175135
       vertices: []
       indices: 
       edges: []
@@ -205,7 +157,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 04c8fbd306066354896e13beb65a864b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -213,10 +165,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_PlayerTempArmsIdle_0: 8897524632816431581
-      spr_PlayerTempArmsIdle_1: -3614924267226900592
-      spr_PlayerTempArmsIdle_2: -7413894636872571811
-      spr_PlayerTempArmsIdle_3: -4321849616610037692
+      spr_PlayerTempArmsShooting_0: -6902622582376636931
+      spr_PlayerTempArmsShooting_1: 8515650348720175135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

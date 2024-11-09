@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1942ba05b50abbc4ab39361a3332f33c
+guid: 3b1a97b00b7a6484f86406487db542e3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8490583625397347757
-    second: spr_PlayerTempArms_0
+      213: 2145957776257399354
+    second: spr_Bullet 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_PlayerTempArms_0
+      name: spr_Bullet 1_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 34
-        width: 27
-        height: 19
+        x: 0
+        y: 0
+        width: 12
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da5ae8f72dc94d570800000000000000
-      internalID: 8490583625397347757
+      spriteID: a3a3fcc4a39f7cd10800000000000000
+      internalID: 2145957776257399354
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_PlayerTempArms_0: 8490583625397347757
+      spr_Bullet 1_0: 2145957776257399354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
