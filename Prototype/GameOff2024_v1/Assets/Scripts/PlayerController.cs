@@ -54,6 +54,11 @@ public class PlayerController : MonoBehaviour
         moveInput = value.Get<Vector2>();
     }
 
+    void OnFire()
+    {
+        Arms.Attack();
+    }
+
     void OnJump(InputValue value)
     {
         myRigidbody.velocity += new Vector2(0f,JumpSpeed);

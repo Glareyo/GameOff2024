@@ -20,3 +20,4 @@ Last Updated:
 07:24|NC - spr_bullet reduced to a smaller size.
 07:35|NC - Created player temp firearm idle animation for when the player is holding a pistol. Will do better naming next time.
 09:07|NC - Created Player temp arms shooting
+19:20|NC - Bullet Asset Created and modified to be smaller
