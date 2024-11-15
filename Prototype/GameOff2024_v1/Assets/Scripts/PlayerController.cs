@@ -56,7 +56,9 @@ public class PlayerController : MonoBehaviour
 
     void OnFire()
     {
-        Arms.Attack();
+        bool playerIsLookingUp = Mathf.Abs(moveInput.y) > Mathf.Epsilon;
+
+        Arms.Attack(playerIsLookingUp);
     }
 
     void OnJump(InputValue value)
@@ -71,10 +73,12 @@ public class PlayerController : MonoBehaviour
         if (playerIsLookingUp)
         {
             Head.LookUp(false);
+            Arms.LookingUp();
         }
         else
         {
             Head.LookDown();
+            Arms.LookingDown();
         }
     }
 

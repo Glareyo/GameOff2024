@@ -1,5 +1,5 @@
 Last Updated: 
-20241109
+20241114
 
 20241106
 12:37|NC Created Testing Sprites folder for testing code.
@@ -21,3 +21,7 @@ Last Updated:
 07:35|NC - Created player temp firearm idle animation for when the player is holding a pistol. Will do better naming next time.
 09:07|NC - Created Player temp arms shooting
 19:20|NC - Bullet Asset Created and modified to be smaller
+
+20241114
+19:57|NC - Created temp player animation shooting up.
+20:28|NC - Created Player Firearm Idle Up animation for bug testing

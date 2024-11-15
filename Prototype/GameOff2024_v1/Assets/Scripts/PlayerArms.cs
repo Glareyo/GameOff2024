@@ -6,6 +6,8 @@ public class PlayerArms : MonoBehaviour
 {
     [SerializeField] GameObject Bullet;
 
+
+    GameObject PlayerController;
     Animator myAnimator;
     bool IsHoldingPistol;
 
@@ -13,6 +15,7 @@ public class PlayerArms : MonoBehaviour
     void Start()
     {
         myAnimator = GetComponent<Animator>();
+        PlayerController = GameObject.Find("Player");
         IsHoldingPistol = false;
     }
 
@@ -22,6 +25,15 @@ public class PlayerArms : MonoBehaviour
         
     }
     
+    public void LookingDown()
+    {
+        myAnimator.SetBool("IsLookingUp", false);
+    }
+    public void LookingUp()
+    {
+        myAnimator.SetBool("IsLookingUp", true);
+    }
+
     //Swap Weapons Animation
     public void SwapWeapons()
     {
@@ -36,12 +48,22 @@ public class PlayerArms : MonoBehaviour
     }
 
     //Attack
-    public void Attack()
+    public void Attack(bool lookingUp)
     {
         if (IsHoldingPistol)
         {
-            Instantiate(Bullet, transform.position, Quaternion.identity);
-            Instantiate(Bullet,transform.position, Quaternion.identity);
+            GameObject b = Instantiate(Bullet, transform.position, transform.rotation);
+            Bullet bullet = b.GetComponent<Bullet>();
+            if (lookingUp)
+            {
+                bullet.SetTrajectory(new Vector2(0, 1));
+            }
+            else
+            {
+                bullet.SetTrajectory(new Vector2(PlayerController.transform.localScale.x, 0));
+            }
+            //(b as Bullet).SetTrajectory(PlayerController.transform.localScale, false);
+
             myAnimator.SetTrigger("Shoot");
         }
     }

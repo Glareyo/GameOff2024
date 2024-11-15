@@ -1,5 +1,5 @@
 Last Updated: 
-20241109
+20241115
 
 20241106
 16:40|NC Created Player.
@@ -35,3 +35,13 @@ Last Updated:
 19:20|NC - Player can now create a bullet via player arms.
 19:21|NC - Bullet can now travel. Will need more serialized fields for speed and damage
 19:21|NC - Player animation for shooting is set via trigger.
+
+20241111
+00:05|NC - Player Bullets can now travel depending on which direction the player is looking.
+
+20241114
+20:34|NC - Player can now shoot up
+
+20241115
+00:01|NC - Player bullets now travel at a consistent speed
+00:01|NC - Player bullets can now travel upwards and rotate.
