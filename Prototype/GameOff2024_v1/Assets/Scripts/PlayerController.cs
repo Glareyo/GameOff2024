@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] int Health;
     [SerializeField] float PlayerSpeed;
     [SerializeField] float JumpSpeed;
+    [SerializeField] int DamageModifier;
 
     [Header("Player Body Parts")]
     [SerializeField] PlayerArms Arms;
@@ -101,4 +102,6 @@ public class PlayerController : MonoBehaviour
     {
         transform.localScale = new Vector2(Mathf.Sign(myRigidbody.velocity.x), 1f);
     }
+
+    public int GetDamage { get { return DamageModifier; } }
 }

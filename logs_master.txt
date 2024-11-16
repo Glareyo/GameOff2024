@@ -1,5 +1,5 @@
 Last Updated: 
-20241115
+20241116
 
 20241103
 00:48|NC Updated GDD Documentation. Section 1 is almost completed.
@@ -80,3 +80,13 @@ Last Updated:
 20241115
 00:01|NC - Player bullets now travel at a consistent speed
 00:01|NC - Player bullets can now travel upwards and rotate.
+14:58|NC - Created Enemy prefab. Will be implementing features and code.
+20:39|NC - Created base template for characters running
+20:39|NC - Create temp player and enemy running animation
+20:39|NC - Imported temp player and enemy run animation.
+21:37|NC - Edited player temp run sprite for better optimization
+21:37|NC - Implemented new player temp run animation.
+
+20241116
+09:27|NC - Enemy can now walk in different directions and go idle.
+13:37|NC - Bullets can now collide into enemies, destroying them.

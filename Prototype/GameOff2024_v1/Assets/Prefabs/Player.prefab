@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 825a423a7977fba41bed2bd56e523631, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 0
+  Health: 10
   PlayerSpeed: 5
   JumpSpeed: 3
   Arms: {fileID: 4218656618115829948}

@@ -10,6 +10,7 @@ public class PlayerArms : MonoBehaviour
     GameObject PlayerController;
     Animator myAnimator;
     bool IsHoldingPistol;
+    int damage;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class PlayerArms : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         PlayerController = GameObject.Find("Player");
         IsHoldingPistol = false;
+        damage = PlayerController.GetComponent<PlayerController>().GetDamage;
     }
 
     // Update is called once per frame
@@ -50,20 +52,29 @@ public class PlayerArms : MonoBehaviour
     //Attack
     public void Attack(bool lookingUp)
     {
+        //Determine if player is holding the pistol
         if (IsHoldingPistol)
         {
+            //Create a gameobject of the bullet
             GameObject b = Instantiate(Bullet, transform.position, transform.rotation);
+            //Get the script of the fired bullet
             Bullet bullet = b.GetComponent<Bullet>();
+            //Trajectory of the bullet
+            Vector2 trajectory = new Vector2();
+
+            //If looking up, set bullet's trajectory to go up.
             if (lookingUp)
             {
-                bullet.SetTrajectory(new Vector2(0, 1));
+                trajectory = new Vector2(0, 1);
             }
-            else
+            else //Else set bullet trajectory to go left or right
             {
-                bullet.SetTrajectory(new Vector2(PlayerController.transform.localScale.x, 0));
+                trajectory = new Vector2(PlayerController.transform.localScale.x, 0);
             }
-            //(b as Bullet).SetTrajectory(PlayerController.transform.localScale, false);
 
+            bullet.SetBullet(trajectory,damage,this.tag);
+
+            //Animate
             myAnimator.SetTrigger("Shoot");
         }
     }
