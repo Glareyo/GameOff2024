@@ -314,6 +314,7 @@ MonoBehaviour:
   Health: 10
   PlayerSpeed: 5
   JumpSpeed: 3
+  DamageModifier: 1
   Arms: {fileID: 4218656618115829948}
   Body: {fileID: 5374244081312296669}
   Head: {fileID: 4440687917555073352}
@@ -437,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53150445fc0887d4ab8329144b290308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bullet: {fileID: 0}
+  Bullet: {fileID: 2281629948940336575, guid: 72511d3bcb0c2ab4b839c9bc08312053, type: 3}
 --- !u!1 &6455691271789628832
 GameObject:
   m_ObjectHideFlags: 0

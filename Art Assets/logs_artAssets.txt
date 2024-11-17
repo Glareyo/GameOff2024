@@ -1,5 +1,5 @@
 Last Updated: 
-20241115
+20241116
 
 20241106
 12:37|NC Created Testing Sprites folder for testing code.
@@ -30,3 +30,7 @@ Last Updated:
 20:39|NC - Created base template for characters running
 20:39|NC - Create temp player and enemy running animation
 21:37|NC - Edited player temp run sprite for better optimization
+
+20241116
+19:50|NC - Created Enemy die animation.
+20:08|NC - Created enemy shoot animation

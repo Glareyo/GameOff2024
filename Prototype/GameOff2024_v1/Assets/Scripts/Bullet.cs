@@ -42,6 +42,7 @@ public class Bullet : MonoBehaviour
         //If Colliding object is not the shooter itself, then figure out what it hit.
         if (colliderTag != shooterTag)
         {
+            Destroy(gameObject);
             if (colliderTag == "Player")
             {
                 PlayerController c = OtherCollider.gameObject.GetComponent<PlayerController>();
@@ -52,10 +53,7 @@ public class Bullet : MonoBehaviour
                 Enemy e = OtherCollider.gameObject.GetComponent<Enemy>();
                 e.TakeDamage(damage);
             }
-
-            Destroy(gameObject);
         }
-        
         //Check layer of other collider.
         //Ensure that bullet isn't hitting the shooter
     }

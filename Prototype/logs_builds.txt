@@ -1,5 +1,5 @@
 Last Updated: 
-20241116
+20241117
 
 20241106
 16:40|NC Created Player.
@@ -52,3 +52,10 @@ Last Updated:
 20241116
 09:27|NC - Enemy can now walk in different directions and go idle.
 13:37|NC - Bullets can now collide into enemies, destroying them.
+19:50|NC - Added Enemy die spritesheet to game
+20:08|NC - Added enemy shoot animation
+20:08|NC - Enemy now initiates Die animation upon death.
+
+20241117
+00:09|NC - Enemy can now shoot
+00:09|NC - Enemy can remains still when engaging player.

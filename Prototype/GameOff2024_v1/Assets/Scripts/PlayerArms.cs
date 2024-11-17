@@ -20,7 +20,7 @@ public class PlayerArms : MonoBehaviour
         IsHoldingPistol = false;
         damage = PlayerController.GetComponent<PlayerController>().GetDamage;
     }
-
+    
     // Update is called once per frame
     void Update()
     {
