@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5250771428197070176}
   - component: {fileID: 441232678646743495}
   - component: {fileID: 4440687917555073352}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerHead
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 6000084645718916681}
   - component: {fileID: 748572086081496035}
   - component: {fileID: 7508582640763394264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -266,8 +266,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.11404288}
-  m_Size: {x: 0.9375, y: 1.7094142}
+  m_Offset: {x: 0, y: 0.28446257}
+  m_Size: {x: 0.9375, y: 2.0502536}
   m_Direction: 0
 --- !u!114 &748572086081496035
 MonoBehaviour:
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   PlayerSpeed: 5
-  JumpSpeed: 3
+  JumpSpeed: 6
   DamageModifier: 1
   Arms: {fileID: 4218656618115829948}
   Body: {fileID: 5374244081312296669}
@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 1024867003367781645}
   - component: {fileID: 5649735760370543932}
   - component: {fileID: 4218656618115829948}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerArms
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53150445fc0887d4ab8329144b290308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bullet: {fileID: 2281629948940336575, guid: 72511d3bcb0c2ab4b839c9bc08312053, type: 3}
+  PlayerBullet: {fileID: 2281629948940336575, guid: 72511d3bcb0c2ab4b839c9bc08312053, type: 3}
 --- !u!1 &6455691271789628832
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 3083805720300378434}
   - component: {fileID: 5893568119782026695}
   - component: {fileID: 5374244081312296669}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerBody
   m_TagString: Player
   m_Icon: {fileID: 0}

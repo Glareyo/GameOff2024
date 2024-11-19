@@ -1,5 +1,5 @@
 Last Updated: 
-20241116
+20241119
 
 20241106
 12:37|NC Created Testing Sprites folder for testing code.
@@ -34,3 +34,6 @@ Last Updated:
 20241116
 19:50|NC - Created Enemy die animation.
 20:08|NC - Created enemy shoot animation
+
+20241119
+15:21|NC - Created Enemy Bullet

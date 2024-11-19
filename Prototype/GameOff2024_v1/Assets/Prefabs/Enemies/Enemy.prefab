@@ -215,7 +215,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -238,7 +238,7 @@ EdgeCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -283,5 +283,6 @@ MonoBehaviour:
   BaseDamage: 0
   AttackCooldown: 0
   Weapon: {fileID: 0}
-  minActionCooldown: 0
-  maxActionCooldown: 0
+  minActionCooldown: 30
+  maxActionCooldown: 300
+  ActionCooldownAmount: 0

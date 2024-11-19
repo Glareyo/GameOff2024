@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class PlayerBullet : MonoBehaviour
 {
     [SerializeField] float Speed;
 
     int damage;
-    string shooterTag;
     Rigidbody2D myRigidBody;
     Vector2 Trajectory;
 
@@ -23,11 +22,10 @@ public class Bullet : MonoBehaviour
         myRigidBody.velocity = new Vector2(Speed * Trajectory.x, Speed * Trajectory.y);
     }
 
-    public void SetBullet(Vector2 trajectory, int Damage, string ShooterTag)
+    public void SetBullet(Vector2 trajectory, int Damage)
     {
         damage = Damage;
         Trajectory = trajectory;
-        shooterTag = ShooterTag;
 
         if (trajectory.y > 0)
         {
@@ -35,49 +33,52 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D OtherCollider)
+    /*private void OnCollisionEnter2D(Collision2D OtherCollider)
     {
         string colliderTag = OtherCollider.gameObject.tag;
 
+        //Do nothing if the bullet is hitting the player.
+        if (colliderTag == "Player")
+        {
+            return;
+        }
         //If Colliding object is not the shooter itself, then figure out what it hit.
-        if (colliderTag != shooterTag)
+        if (OtherCollider.gameObject.layer == LayerMask.NameToLayer("Platform"))
         {
             Destroy(gameObject);
-            if (colliderTag == "Player")
-            {
-                PlayerController c = OtherCollider.gameObject.GetComponent<PlayerController>();
-                //Take Damage
-            }
-            else if (colliderTag == "Enemy")
-            {
-                Enemy e = OtherCollider.gameObject.GetComponent<Enemy>();
-                e.TakeDamage(damage);
-            }
-        }
-        //Check layer of other collider.
-        //Ensure that bullet isn't hitting the shooter
-    }
-
-    private void OnCollisionEnter2D(Collision2D OtherCollider)
-    {
-        string colliderTag = OtherCollider.gameObject.tag;
-        
-        if (colliderTag == shooterTag)
-        {
-            //Do Nothing
-        }
-        else if (colliderTag == "Player")
-        {
-            PlayerController c = OtherCollider.gameObject.GetComponent<PlayerController>();
-            //Take Damage
         }
         else if (colliderTag == "Enemy")
         {
+            Debug.Log("Hit");
+            Destroy(gameObject);
             Enemy e = OtherCollider.gameObject.GetComponent<Enemy>();
             e.TakeDamage(damage);
         }
         //Check layer of other collider.
         //Ensure that bullet isn't hitting the shooter
+    }*/
+    private void OnTriggerEnter2D(Collider2D OtherCollider)
+    {
+        string colliderTag = OtherCollider.gameObject.tag;
 
+        //Do nothing if the bullet is hitting the player.
+        if (colliderTag == "Player")
+        {
+            return;
+        }
+        //If Colliding object is not the shooter itself, then figure out what it hit.
+        if (OtherCollider.gameObject.layer == LayerMask.NameToLayer("Platform"))
+        {
+            Destroy(gameObject);
+        }
+        else if (colliderTag == "Enemy")
+        {
+            Debug.Log("Hit");
+            Destroy(gameObject);
+            Enemy e = OtherCollider.gameObject.GetComponent<Enemy>();
+            e.TakeDamage(damage);
+        }
+        //Check layer of other collider.
+        //Ensure that bullet isn't hitting the shooter
     }
 }

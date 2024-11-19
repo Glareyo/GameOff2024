@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerArms : MonoBehaviour
 {
-    [SerializeField] GameObject Bullet;
+    [SerializeField] GameObject PlayerBullet;
 
 
     GameObject PlayerController;
@@ -56,9 +56,9 @@ public class PlayerArms : MonoBehaviour
         if (IsHoldingPistol)
         {
             //Create a gameobject of the bullet
-            GameObject b = Instantiate(Bullet, transform.position, transform.rotation);
+            GameObject b = Instantiate(PlayerBullet, transform.position, transform.rotation);
             //Get the script of the fired bullet
-            Bullet bullet = b.GetComponent<Bullet>();
+            PlayerBullet bullet = b.GetComponent<PlayerBullet>();
             //Trajectory of the bullet
             Vector2 trajectory = new Vector2();
 
@@ -72,7 +72,7 @@ public class PlayerArms : MonoBehaviour
                 trajectory = new Vector2(PlayerController.transform.localScale.x, 0);
             }
 
-            bullet.SetBullet(trajectory,damage,this.tag);
+            bullet.SetBullet(trajectory,damage);
 
             //Animate
             myAnimator.SetTrigger("Shoot");

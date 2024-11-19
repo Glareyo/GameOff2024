@@ -1,5 +1,5 @@
 Last Updated: 
-20241117
+20241119
 
 20241106
 16:40|NC Created Player.
@@ -59,3 +59,8 @@ Last Updated:
 20241117
 00:09|NC - Enemy can now shoot
 00:09|NC - Enemy can remains still when engaging player.
+
+20241119
+15:21|NC - Added Enemy Bullet
+16:06|NC - Bug fixed where player bullet was colliding with enemy sight.
+17:04|NC - Created new scene for camera controls and confinement.

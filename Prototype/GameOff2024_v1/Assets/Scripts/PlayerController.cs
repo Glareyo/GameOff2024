@@ -64,8 +64,11 @@ public class PlayerController : MonoBehaviour
 
     void OnJump(InputValue value)
     {
-        myRigidbody.velocity += new Vector2(0f,JumpSpeed);
-        Body.Jump();
+        if (myFeetCollidor.IsTouchingLayers(LayerMask.GetMask("Platform")))
+        {
+            myRigidbody.velocity += new Vector2(0f, JumpSpeed);
+            Body.Jump();
+        }
     }
 
     void LookUp()
